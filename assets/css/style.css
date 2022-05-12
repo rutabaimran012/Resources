@@ -1,0 +1,121 @@
+.resources__div{
+    color: #002d56;
+    text-align: center;
+}
+.resources__heading{
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+body{
+    font-family: Montserrat;
+}
+.resources__paragraph{
+    font-size: 14px;
+    margin-bottom: 44px;
+}
+button{
+    color: #002d56;
+    background-color: white;
+    border: 1px solid #002d56;
+    padding: 13px;
+    font-size: 18px;
+    margin-left: 16px;
+    cursor: pointer;
+
+}
+button:hover{
+    color: white;
+    background-color: #002d56;
+}
+.unit__div{
+    background-color: black;
+    margin-left: 21px;
+    padding-left: 29px;
+    height: 51%;
+}
+.unit__heading{
+    color: white;
+    font-size: 18px;
+    padding-top: 10px;
+}
+.changelog__heading{
+    color: green;
+    font-size: 20px;
+    margin-left: 22px;
+}
+.april__heading{
+    color: white;
+    font-size: 18px;
+    margin-left: 22px;
+}
+.build__heading{
+    color: #002d56;
+    width: 100%;
+    font-size: 17px;
+    margin-left: 20px;
+}
+.build__paragraph{
+    color: #002d56;
+    font-size: 10px;
+    width: 89%;
+    margin-left:20px ;
+}
+.unit-main-div{
+    display: flex;
+    justify-content: center;
+}
+.changelog{
+    width: 21%;
+    height: 324px;
+    margin-top: 50px;
+}
+.changelog-one{
+    width: 21%;
+    height: 324px;
+    margin-left: 246px;
+    margin-top: 60px;
+}
+
+
+
+
+
+
+@media screen and (max-width:767px){
+    .resources__paragraph{
+        width: 75%;
+        text-align: center;
+        margin-left: 51px;
+        line-height: 20px;
+        font-size: 15px;
+    }
+    .buttons__div{
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+    }
+    button{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+        align-items: center;
+    }
+    .unit-main-div{
+        display: flex;
+        flex-direction: column;
+    }
+    .changelog{
+        width: 79%;
+        margin-left: 45px;
+    }
+    .build__heading{
+        width: 95%;
+    }
+    .build__paragraph{
+        width: 80%;
+    }
+    .changelog-one{
+        width: 79%;
+    }
+
+}
